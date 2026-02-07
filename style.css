@@ -15,6 +15,8 @@ header {
     align-items: center;
 }
 
+
+
 .logo {
     display: flex;
 }
@@ -55,6 +57,7 @@ header nav a:hover {
 .icones-header {
     display: flex;
     gap: 30px;
+    cursor: pointer;
 }
 
 main {
@@ -62,6 +65,7 @@ main {
     padding-left: 80px;
     padding-right: 80px;
     display: flex;
+    background-color: antiquewhite;
 }
 
 .cor-verde {
@@ -87,12 +91,13 @@ main {
     background-color: #FF5100;
     color: white;
     border: none;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 5px;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .noticia-principal h2 {
@@ -136,7 +141,8 @@ main section:nth-child(3) {
 
 .noticia-grupo img {
     width: 90%;
-    border-radius: 20px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .noticia-grupo h3 {
@@ -163,6 +169,8 @@ main section:nth-child(3) {
     padding: 40px 0px;
 }
 
+/*fim do estilo primeira seção*/
+
 #segunda-secao-noticias {
     display: flex;
     justify-content: space-between;
@@ -172,8 +180,6 @@ main section:nth-child(3) {
 #segunda-secao-noticias article ul li::marker {
     color: #0073FF;
 }
-
-/*fim do esilo primeira seção*/
 
 /*estilo segunda seção*/
 
@@ -204,7 +210,7 @@ main section:nth-child(3) article ul li::marker {
 /*fim do estilo terceira seção*/
 
 footer {
-    background-color: #0073FF;
+    background-color: #024da8;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -212,5 +218,5 @@ footer {
     font-size: 20px;
     color: white;
     font-weight: 600;
-    margin-top: 50px;
+    margin-top: 0px;
 }
