@@ -8,4 +8,40 @@ header nav a:nth-child(2) {
 
 header nav a:hover {
   color: #09FF00;
+  font-size: 20px;
+}
+
+.noticia-grupo img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.noticia-grupo{
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.noticia-grupo h1{
+  margin-bottom: 20px;
+  color: #0073FF;
+}
+
+.noticia-grupo h2{
+  margin-bottom: 10px;
+  
+}
+
+main {
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-right: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+} 
+
+main section:first-child {
+    width: 90%;
+    padding-right: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
 }

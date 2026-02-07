@@ -15,8 +15,6 @@ header {
     align-items: center;
 }
 
-
-
 .logo {
     display: flex;
 }
@@ -210,7 +208,7 @@ main section:nth-child(3) article ul li::marker {
 /*fim do estilo terceira seção*/
 
 footer {
-    background-color: #024da8;
+    background-color: #033a7c;
     height: 200px;
     display: flex;
     justify-content: center;

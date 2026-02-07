@@ -9,3 +9,36 @@ header nav a:nth-child(4) {
 header nav a:hover {
     color: #09FF00;
 }
+
+.reforma img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.reforma h1 {
+    font-size: 30px;
+    color: #FF0000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.reforma h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.reforma ul li::marker {
+    color: #FF0000;
+}
+
+.reforma p {
+    font-size: 16px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+main section:first-child {
+    width: 70%;
+    padding-right: 40px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
