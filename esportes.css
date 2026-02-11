@@ -47,11 +47,49 @@ main {
   padding-right: 400px;
   display: flex;
   flex-direction: column;
-  background-color: antiquewhite;
+  background-color: rgb(247, 240, 232);
 } 
 
 main section:first-child {
     width: 100%;
     padding-right: 30px;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/*responsividade*/
+
+@media (max-width: 960px) {
+    
+    header{
+        flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    height: 100%;
+    }
+    
+    main{
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+
+    header nav a{
+    font-size: 13px;
+}
+
+  header nav {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  main section:first-child{
+    padding-right: 10px;
+    border-right: 10px;
+  }
+
+  main section:first-child img{
+    width: 100%;
+  }
 }
